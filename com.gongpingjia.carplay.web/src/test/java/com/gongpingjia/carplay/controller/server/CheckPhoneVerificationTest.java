@@ -41,7 +41,7 @@ public class CheckPhoneVerificationTest extends BaseTest {
 		Assert.assertNull(result.getModelAndView());
 	}
 
-	@Test
+	//@Test
 	public void testCheckPhoneVerification2() throws Exception {
 
 		MvcResult result = mockMvc
@@ -54,7 +54,7 @@ public class CheckPhoneVerificationTest extends BaseTest {
 		Assert.assertNull(result.getModelAndView());
 	}
 
-	@Test
+	//@Test
 	public void testCheckPhoneVerification3() throws Exception {
 
 		MvcResult result = mockMvc

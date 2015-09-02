@@ -15,7 +15,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
  * @author zhou shuofu
  */
 public class SubmitFeedbackTest extends BaseTest {
-	@Test
+	//@Test
 	public void testjoin() throws Exception {
 		String userId = "082c79ac-1683-43ad-ab29-101faf80490c";
 		String token = "87836150-2529-4c82-b99e-0e0ad7261247";

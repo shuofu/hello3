@@ -17,7 +17,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
  */
 public class GetMessageCountTest extends BaseTest {
 
-	@Test
+	//@Test
 	public void testMessageCount() throws Exception {
 		String userId = "83d307d8-c337-4339-96be-bd90c9625f0e";
 		String token = "24973384-f9c4-496d-bd93-2f2b481923c0";

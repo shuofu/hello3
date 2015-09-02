@@ -12,7 +12,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
 
 public class GetActivityCommentsTest extends BaseTest{
 	
-	@Test
+	//@Test
 	public void testGetActivityInfoTest() throws Exception {
 		MvcResult result = mockMvc
 				.perform(
