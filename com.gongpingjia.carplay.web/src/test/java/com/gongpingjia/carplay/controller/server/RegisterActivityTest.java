@@ -16,7 +16,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
  */
 public class RegisterActivityTest extends BaseTest {
 
-	@Test
+	//@Test
 	public void testRegisterActivity() throws Exception {
 		String userId="412bac09-b9a0-46b5-a283-7442fa1eb76c";
 		String token="3f1d9898-5531-4753-80fa-2e164c5ba754";

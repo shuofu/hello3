@@ -12,7 +12,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
 
 public class GetMemberAndSeatInfoTest extends BaseTest{
 
-	@Test
+	//@Test
 	public void testGetMemberAndSeatInfo() throws Exception{
 		MvcResult result = mockMvc
 				.perform(get("/activity/1a479aea-7d9f-4bf7-bbc6-ac9b362a6b7b/members")

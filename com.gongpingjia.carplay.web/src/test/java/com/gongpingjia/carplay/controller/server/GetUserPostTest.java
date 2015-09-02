@@ -17,7 +17,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
  */
 public class GetUserPostTest extends BaseTest {
 
-	@Test
+	//@Test
 	public void testUserPost() throws Exception {
 		String userid1 = "7da6fac1-c360-449b-8b19-5231d8fa9b0a";
 		String userId2 = "7da6fac1-c360-449b-8b19-5231d8fa9b0a";

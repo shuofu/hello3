@@ -12,7 +12,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
 public class PublishCommentTest extends BaseTest {
 
 	//没有replyUserId
-	@Test
+	//@Test
 	public void testPublishComment() throws Exception {
 		MvcResult result = mockMvc
 				.perform(
@@ -30,7 +30,7 @@ public class PublishCommentTest extends BaseTest {
 	}
 	
 	//replyUserId 参数用户不存在
-	@Test
+	//@Test
 	public void testPublishComment2() throws Exception {
 		MvcResult result = mockMvc
 				.perform(
@@ -49,7 +49,7 @@ public class PublishCommentTest extends BaseTest {
 	}
 	
 	//replyUserId 用户存在
-	@Test
+	//@Test
 	public void testPublishComment3() throws Exception {
 		MvcResult result = mockMvc
 				.perform(

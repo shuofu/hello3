@@ -29,7 +29,7 @@ public class BusinessTest extends BaseTest {
 	String token;
 	String activityId;
 	
-	@Test
+	//@Test
 	public void registerTest() throws Exception {
 		String phone="12345678912";
 		String password="e10adc3949ba59abbe56e057f20f883e";
@@ -122,7 +122,7 @@ public class BusinessTest extends BaseTest {
 			
 	}
 	
-	@Test
+	//@Test
 	public void activityTest() throws Exception{
 		
 		String userId="90179e74-e5ce-4925-89cb-d9de2d0ccfc7";
@@ -231,7 +231,7 @@ public class BusinessTest extends BaseTest {
 		
 	}
 	
-	@Test
+	//@Test
 	public void userActionTest()throws Exception{
 		String userId="90179e74-e5ce-4925-89cb-d9de2d0ccfc7";
 		String token="fd9d8810-b7c2-4e9d-821c-fde4af667de3";

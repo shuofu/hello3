@@ -18,7 +18,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
  */
 public class SendPhoneVerificationTest extends BaseTest {
 
-	@Test
+	//@Test
 	public void testSendPhoneVerification() throws Exception {
 		MvcResult result = mockMvc.perform(get("/phone/" + Constants.PHONE_NUMBER + "/verification"))
 				.andExpect(MockMvcResultMatchers.status().isOk())
@@ -30,7 +30,7 @@ public class SendPhoneVerificationTest extends BaseTest {
 		Assert.assertNull(result.getModelAndView());
 	}
 
-	@Test
+	//@Test
 	public void testSendPhoneVerification1() throws Exception {
 		MvcResult result = mockMvc.perform(get("/phone/123456/verification"))
 				.andExpect(MockMvcResultMatchers.status().isOk())
@@ -41,7 +41,7 @@ public class SendPhoneVerificationTest extends BaseTest {
 		Assert.assertNull(result.getModelAndView());
 	}
 
-	@Test
+	//@Test
 	public void testSendPhoneVerification2() throws Exception {
 		MvcResult result = mockMvc.perform(get("/phone/" + Constants.PHONE_NUMBER + "/verification?type=1"))
 				.andExpect(MockMvcResultMatchers.status().isOk())

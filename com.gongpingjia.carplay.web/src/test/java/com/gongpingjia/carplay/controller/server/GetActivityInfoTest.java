@@ -13,7 +13,7 @@ import com.gongpingjia.carplay.controller.BaseTest;
 public class GetActivityInfoTest extends BaseTest {
 
 	// 组织者
-	@Test
+	//@Test
 	public void testGetActivityInfo() throws Exception {
 		MvcResult result = mockMvc
 				.perform(
@@ -30,7 +30,7 @@ public class GetActivityInfoTest extends BaseTest {
 	}
 
 	// 非组织者
-	@Test
+	//@Test
 	public void testGetActivityInfo2() throws Exception {
 		MvcResult result = mockMvc
 				.perform(
